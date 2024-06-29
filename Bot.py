@@ -17,16 +17,15 @@ import pyautogui
 # If modifying these scopes, delete the file token.json.
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 
-# The ID and range of a sample spreadsheet.
-SAMPLE_SPREADSHEET_ID = "1E_Y7ItgCql74qE4b3BcJe8IKiVQvCGUm8g8BUKd3y-8"
-SAMPLE_RANGE_NAME = "Página1!A1:C9"
+SAMPLE_SPREADSHEET_ID = "Colocar o da sua planilha"
+SAMPLE_RANGE_NAME = "Colocar o intervalo"
 
 def main():
     creds = None
 
     # Caminho completo para o arquivo credentials.json
-    credentials_path = 'c:/Users/phoqu/Desktop/Python/Whatsapp/credentials.json'
-    token_path = 'c:/Users/phoqu/Desktop/Python/Whatsapp/token.json'
+    credentials_path = 'Colocar o seu caminho'
+    token_path = 'Colocar o seu caminho'
 
     if os.path.exists(token_path):
         creds = Credentials.from_authorized_user_file(token_path, SCOPES)
